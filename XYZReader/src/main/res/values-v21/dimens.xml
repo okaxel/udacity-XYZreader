@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- list -->
+    <dimen name="list_actionbar_elevation">4dp</dimen>
+    <dimen name="list_card_elevation">1dp</dimen>
+    <dimen name="list_card_elevation_picked_up">8dp</dimen>
+
+    <!-- fab -->
+    <dimen name="fab_elevtaion">6dp</dimen>
+    <dimen name="fab_elevation_pressed">12dp</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- list -->
+    <dimen name="list_actionbar_height">112dp</dimen>
+    <dimen name="list_actionbar_padding">12dp</dimen>
+    <dimen name="list_card_margin">4dp</dimen>
+    <dimen name="list_card_text_padding_outside">16dp</dimen>
+    <dimen name="list_card_text_padding_divider">4dp</dimen>
+    <dimen name="list_card_title_size">16sp</dimen>
+    <dimen name="list_card_headline_size">14dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_title_padding_vertical">16dp</dimen>
+    <dimen name="detail_title_padding_horizontal">64dp</dimen>
+    <dimen name="detail_byline_text_size">16sp</dimen>
+    <dimen name="detail_byline_padding_vertical">8dp</dimen>
+    <dimen name="detail_byline_padding_horizontal">64dp</dimen>
+    <dimen name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</dimen>
+    <dimen name="detail_body_text_size">12sp</dimen>
+    <dimen name="detail_body_line_spacing_multiplier" format="float" type="fraction">0.9</dimen>
+    <dimen name="detail_toolbar_title_margin">72dp</dimen>
+    <dimen name="detail_toolbar_inset_start">72dp</dimen>
+
+    <!-- fab -->
+    <dimen name="fab_diameter">56dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+</resources>

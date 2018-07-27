@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Actionbar" parent="@style/Theme.Bacon">
+
+        <item name="android:padding">@dimen/list_actionbar_padding</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+
+    </style>
+
+    <style name="Theme.Bacon.RecyclerView"  parent="@style/Theme.Bacon">
+
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:padding">@dimen/list_padding</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Card" parent="@style/Theme.Bacon">
+
+        <item name="android:layout_margin">@dimen/list_card_margin</item>
+        <item name="android:background">@color/colorCardBackground</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Card.Image" parent="@style/Theme.Bacon">
+
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Card.Title"  parent="@style/Theme.Bacon">
+
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:paddingStart">@dimen/list_card_text_padding_outside</item>
+        <item name="android:paddingEnd">@dimen/list_card_text_padding_outside</item>
+        <item name="android:paddingTop">@dimen/list_card_text_padding_outside</item>
+        <item name="android:paddingBottom">@dimen/list_card_text_padding_divider</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/list_card_title_size</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Card.Headline"  parent="@style/Theme.Bacon">
+
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:paddingStart">@dimen/list_card_text_padding_outside</item>
+        <item name="android:paddingEnd">@dimen/list_card_text_padding_outside</item>
+        <item name="android:paddingBottom">@dimen/list_card_text_padding_outside</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/list_card_headline_size</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail" parent="@style/Theme.Bacon">
+    </style>
+
+    <style name="Theme.Bacon.Detail.Metabar" parent="@style/Theme.Bacon">
+
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">bottom</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail.Title" parent="@style/Theme.Bacon">
+
+        <item name="android:paddingTop">@dimen/detail_title_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_title_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/detail_title_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/detail_title_padding_horizontal</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:lineSpacingMultiplier">@dimen/detail_title_line_spacing_multiplier</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail.Byline" parent="@style/Theme.Bacon">
+
+        <item name="android:paddingTop">@dimen/detail_byline_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_byline_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/detail_byline_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/detail_byline_padding_horizontal</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">@dimen/detail_byline_text_size</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail.Body" parent="@style/Theme.Bacon">
+
+        <item name="android:layout_marginTop">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:layout_marginLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textColorLink">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+        <item name="android:lineSpacingMultiplier">@dimen/detail_body_line_spacing_multiplier</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail.Fab" parent="@style/Theme.Bacon">
+    </style>
+
+</resources>

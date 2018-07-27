@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Bacon.Detail">
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Actionbar" parent="@style/Theme.Bacon">
+
+        <item name="android:padding">@dimen/list_actionbar_padding</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+
+        <item name="android:elevation">@dimen/list_actionbar_elevation</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Card" parent="@style/Theme.Bacon">
+
+        <item name="android:layout_margin">@dimen/list_card_margin</item>
+        <item name="android:background">@color/colorCardBackground</item>
+
+        <item name="android:elevation">@dimen/list_card_elevation</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail.Fab" parent="@style/Theme.Bacon">
+
+        <item name="android:elevation">@dimen/fab_elevation</item>
+
+    </style>
+
+</resources>
