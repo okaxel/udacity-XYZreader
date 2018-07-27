@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:theme="@style/Theme.Bacon.Detail.Body"/>
     </android.support.v4.widget.NestedScrollView>
-    <ImageButton
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="@dimen/fab_diameter"
         android:layout_height="@dimen/fab_diameter"
@@ -68,9 +68,8 @@
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
         android:theme="@style/Theme.Bacon.Detail.Fab"
-        android:background="@drawable/add_fab_background"
         android:src="@drawable/ic_share"
         android:contentDescription="@string/action_share"
-        android:stateListAnimator="@anim/fab_state_list_anim"
+        android:stateListAnimator="@animator/fab_state_list_anim"
         tools:ignore="UnusedAttribute" />
 </android.support.design.widget.CoordinatorLayout>
